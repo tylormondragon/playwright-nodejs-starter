@@ -4,3 +4,10 @@ test-results/
 
 .idea/
 playwright-report/
+.png
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
