@@ -4,7 +4,7 @@ test-results/
 
 .idea/
 playwright-report/
-.png
+*.png
 
 # Playwright
 /playwright-report/
