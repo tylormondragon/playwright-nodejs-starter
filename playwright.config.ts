@@ -6,8 +6,10 @@ export default defineConfig({
 
   use: {
     baseURL: 'http://localhost:3000/',
-    headless: false,
+    headless: true,
     launchOptions: { slowMo: 1000 },
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   }
 
 });
